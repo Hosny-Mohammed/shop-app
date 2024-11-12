@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(providers: [ChangeNotifierProvider(create: (context) => AuthProvider()),ChangeNotifierProvider(create: (context) => ProductProvider())], child: MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Shop app",
+      title: "fady app",
       home: SignupScreen(),
     ),);
   }
